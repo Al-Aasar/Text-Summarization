@@ -7,6 +7,8 @@ def load_model():
 
 summarizer = load_model()
 
+st.set_page_config(page_title="Text Summarization App", page_icon="📑", layout="centered")
+
 st.title("📑 Text Summarization App")
 
 st.subheader("Enter your text:")
